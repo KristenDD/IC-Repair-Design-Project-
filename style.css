@@ -1,0 +1,1230 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+@font-face {
+  src: url('../fonts/NunitoSans-Regular.ttf');
+  font-family: "Nunito Sans";
+}
+
+@font-face {
+  src: url('../fonts/YesevaOne-Regular.ttf');
+  font-family: "Yeseva One";
+}
+
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+input,label {
+  display: block;
+  font-family: Nunito Sans;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E3B873;
+  text-decoration: none;
+}
+
+h1,h2,h3 {
+  font-style: normal;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Yeseva One;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.header,.footer {
+  background-color: black;
+}
+
+.header-container,.footer-container {
+  text-transform: uppercase;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 83px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #E3B873;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list {
+  margin-right: 47px;
+}
+
+.phone a {
+  color: #E3B873;
+  text-decoration-line: underline;
+}
+
+.button, .button-menu {
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  border: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+  width: 161px;
+  height: 37px;
+}
+
+.hero {
+  background-color: black;
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.block-hero {
+  height: 707px;
+  padding-top: 194px;
+  max-width: 1440px;
+  position: static;
+}
+
+.title-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+.discription {
+  margin-left: 134px;
+}
+
+.discription h1 {
+  font-family: Yeseva One;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 560px;
+}
+
+.text-color {
+  color: #E3B873;
+}
+
+.discription p {
+  font-size: 22px;
+  line-height: 36px;
+  max-width: 510px;
+}
+
+.discription .button {
+  height: 51px;
+  width: 207px;
+  background: #E3B873;
+  box-shadow: none;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+  border: 1px solid white;
+}
+
+.submit {
+  margin-left: 20px;
+}
+
+.main__block {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* section completed projects */
+
+.complet-projects {
+  background: black;
+  padding: 107px 0 420px;
+}
+
+.complet-block {
+  max-width: 1171px;
+}
+
+.nav-complet {
+  font-family: Yeseva One;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 452px;
+}
+
+.nav-complet-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-complet-item {
+  margin-right: 40px;
+}
+
+.nav-complet-item a {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.nav-complet-item a:hover {
+  color: #E3B873;
+  border-bottom: #E3B873 solid 2px;
+  padding-bottom: 6px;
+}
+
+.complet-discription {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.complet-text {
+  max-width: 442px;
+  margin-right: 50px;
+}
+
+.complet-text h2 {
+  font-family: Yeseva One;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin: 0;
+}
+
+.complet-text p {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+
+.complet-works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-slaider {
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-top: 34px;
+  margin-bottom: 9px;
+}
+
+.text-slaider-item {
+  font-family: Nunito Sans;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.complet-works-item:nth-child(odd) {
+  width: 190px;
+}
+
+.arrows {
+  display: flex;
+  align-items: left;
+  margin-top: 62px;
+}
+
+.arrow-left {
+  margin-right: 20px;
+}
+
+.arrow-right {
+  margin-left: 20px;
+}
+
+.arrows-dot {
+  display: block;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  width: 9px;
+  height: 9px;
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 4px;
+}
+
+.arrows-dot:hover {
+  background: white;
+}
+
+
+.complet-mobile,.questions-mobile {
+  display: none;
+}
+
+.mobile-arrows {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 27px;
+  right: 27px;
+  z-index: 2;
+}
+
+/* section online control */
+
+.online-control {
+  padding-bottom: 74px;
+ 
+}
+
+.control-block {
+  max-width: 1171px;
+  text-align: center;
+  margin-top: -329px;
+}
+
+.camera {
+  margin-top: 13px;
+  margin-bottom: 25px;
+}
+
+.content-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 63px;
+}
+
+.working-overlay {
+  position: absolute;
+  width: 817px;
+  height: 434px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.photo-working {
+  display: flex;
+   flex-wrap: wrap;
+}
+
+.play-item {
+  position: absolute;
+  z-index: 1;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #E3B873;
+  width: 55px;
+}
+
+.discription-control {
+  padding-top: 33px;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+  max-width: 681px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+}
+
+.data-control {
+  display: flex;
+  justify-content: space-between;
+  max-width: 769px;
+  margin: 0 auto;
+}
+
+.data-label {
+  font-size: 13px;
+  line-height: 21px;
+  text-align: left;
+  color: rgba(54, 54, 54, 0.5);
+}
+
+.data-input {
+  border: 0;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  width: 231px;
+  outline: none;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+}
+
+.button-form {
+  width: 207px;
+  height: 51px;
+  font-style: normal;
+  font-size: 13px;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+}
+
+.button-moile {
+  display: none;
+}
+
+.label {
+  margin-top: 40px;
+  cursor: pointer;
+}
+.checkbox{
+  display: none;
+}
+.fake{
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
+}
+.fake::before{
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+.checkbox:checked + .fake::before{
+  opacity: 1;
+}
+
+.text-checkbox {
+  color: black;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+} 
+
+/* section types of repair */
+
+.types-of-repair {
+  padding-top: 90px;
+  padding-bottom: 107px;
+  background-image: url('img/hause.png');
+  background-position: -74px 956px;
+  background-repeat: no-repeat;
+}
+
+.types-block {
+  max-width: 1256px;
+  text-align: center;
+}
+
+.instrument {
+  margin-top: 20px;
+}
+
+.types-block h3 {
+  color: black;
+}
+
+.types-content {
+  max-width: 392px;
+}
+
+.types-photo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px
+}
+
+.types-text {
+  display: inline-block;
+  width: 330px;
+  color: black;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03); 
+  margin: -127px auto -28px;
+  padding: 25px 0 49px 34px;
+  text-align: left;
+}
+
+.types-text span {
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 25px 0 0 0;
+}
+
+.types-text ul {
+  padding-left: 15px;
+  margin-top: 8px;
+}
+
+.types-text li {
+  font-family: Nunito Sans;
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595;
+}
+
+.done-from {
+  background: #E3B873;
+  border-radius: 2px;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  width: 228px;
+  height: 54px;
+  margin-left: 34px;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: normal;
+  display: flex;
+}
+
+.done-from span {
+  margin: auto;
+}
+
+.additional-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.advantages {
+  width: 454px;
+  margin: 190px 0 0px 152px;
+}
+
+.advantages-content {
+  display: flex;
+  text-align: left;
+  padding: 43px 0;
+}
+
+.advantages-content p {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
+  text-align: left; 
+  width: 316px;  
+  margin: auto 0 auto 8px;
+}
+
+.advantages-content-num {
+  width: 58px;
+  height: 58px;
+  background: #E3B873;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 50%;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black {
+  width: 506px;
+  height: 509px;
+  background-color: black;
+  margin: 230px 0 0 0;
+}
+
+.form-content {
+  flex-direction: column;
+}
+
+.form-content p {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 28px 0 39px;
+}
+
+.black-label {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 49px;
+}
+
+.black-input {
+  background: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin-bottom: 48px;
+  width: 408px;
+}
+
+.black-input::placeholder{
+  color: white;
+}
+
+.black-checkbox {
+  text-align: left;
+  margin: -65px 0 0 48px;
+}
+
+.checkbox-label {
+  color: white;
+}
+
+.button-repair {
+  margin: 22px 0 0 244px;
+  width: 213px;
+  height: 51px;
+  font-style: normal;
+  font-size: 13px;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+}
+
+.help-save {
+  display: flex;
+  margin: 0 0 130px 762px;
+}
+
+.help-save p {
+  text-align: left;
+  width: 316px;
+  margin: auto 0 auto 25px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #E3B873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.pig-img {
+  background: #E3B873;
+  box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section we realize */
+
+.realize {
+  background-image: url('img/we-realize.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+}
+
+.realize-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.realize-block {
+  max-width: 1256px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.realize-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.realize-content li {
+  margin: 11px 0;
+}
+
+.realize-content {
+  text-align: left;
+}
+
+.realize-content p {
+  margin: 12px 0;
+}
+
+.realize-content h2 {
+  font-family: Yeseva One;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin: 138px 0 47px;
+}
+
+.realize-content a {
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.realize-content a:hover {
+  color: #E3B873;
+  border-bottom: #E3B873 solid 1px;
+  padding-bottom: 1px; 
+}
+
+.realize-photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.loyaut-one {
+  height: 946px;
+  margin: -41px 0 -41px 160px;
+}
+
+.loyaut-two {
+  height: 937px;
+  margin-top: -113px;
+}
+
+/* section our clients */
+
+.our-clients {
+  background-image: url('img/frame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 380px;
+  margin-top: 110px;
+}
+
+.our-clients-block {
+  max-width: 1256px;
+  text-align: center;
+}
+
+.our-clients-block h3 {
+  color: black;
+}
+
+.hands {
+  margin-top: 20px;
+}
+
+.recommend {
+  font-size: 18px;
+  line-height: 29px;
+  color: #363636;
+}
+
+.client {
+  width: 376px;
+  height: 428px;
+  padding: 24px 32px 0 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+
+.client-name {
+  display: flex;
+}
+
+.client-name img {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.client-name p {
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+  margin: auto 0 auto 23px;
+  text-align: left;
+}
+
+.client-feedback {
+  font-size: 13px;
+  line-height: 23px;
+  color: #959595;
+  text-align: left;
+  margin-top: 22px;
+}
+
+.days-work {
+  width: 294px;
+  height: 54px;
+  margin: 60px 0 0 -20px;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: initial;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.days-work span {
+  margin: auto 0 ;
+}
+
+.lines-value, .note {
+  margin-top: 11px;
+  width: 32px;
+  height: 32px;
+}
+
+/* section about-us */
+
+.about-us {
+  background-image: url('img/bilding.png');
+  padding-bottom: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+}
+
+.about-us-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(24, 24, 24, 0.9);
+  margin-top: -12px;
+}
+
+.questions {
+  position: relative;
+  margin: 0;
+  width: 883px;
+  height: 445px;
+  text-align: center;
+  padding: 34px 182px;
+  top: -223px;
+}
+
+.questions p {
+  font-family: Yeseva One;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin: 0 0 46px;
+}
+
+.questions-form {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bond {
+  margin: 0;
+}
+
+.know {
+  margin: 31px 0 34px;
+}
+
+.bond-input {
+  margin: 0;
+  width: 231px;
+}
+
+.knows {
+  margin: 0;
+  width: 517px;
+}
+
+.contacts-check {
+  margin: 0 auto;
+}
+
+.black-btn {
+  margin: 30px 0 0;
+  width: 200px;
+}
+
+.about-us-block {
+  max-width: 925px;
+  text-align: center;
+}
+
+.our-address {
+  color: #E3B873;   
+  top: -171px;
+  position: relative;
+}
+
+.card {
+  margin-top: -100px;
+}
+
+.our-media {
+  position: relative;
+  top: -145px;
+}
+
+.our-media img {
+  margin: 0 8px 0;
+}
+
+.footer-container {
+  height: 133px;
+}
+
+.question-mobile, .realize-mob {
+  display: none;
+}
+
+/* mobile version */
+
+@media only screen and (max-width : 1300px) {
+  
+  .header-container, .foote-container {
+    height: 57px;
+    justify-content: space-around;
+  }
+
+  .button-menu {
+    display: none;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .nav {
+      display: none;
+  }
+
+  .phone a {
+      color: white;
+      text-decoration-line: none;
+  }
+
+  .block-hero {
+      height: 476px;
+      padding-top: 85px;
+  }
+  
+  .discription {
+      max-width: 375px;
+      padding: 0 15px;
+      margin: 0 auto;
+  }
+
+  .discription h1 {
+      font-size: 23px;
+      line-height: 31px;
+  }
+
+  .discription p {
+      font-size: 14px;
+      line-height: 19px;
+  }
+
+  .discription .button {
+      height: 51px;
+      width: 100%;
+      margin-top: 32px;
+  }
+  .submit {
+      margin-left: 0px;
+      margin-top: 26px;
+  }
+
+  .complet-projects {
+      padding: 36px 0 58px;
+      margin: 0 auto;
+  }
+
+  .complet-block {
+      max-width: 375px;
+  }
+
+  .nav-complet {
+      display: none;
+  }
+
+  .complet-discription {
+      display: block;
+  }
+
+  .complet-text {
+      margin: 0 auto;
+      align-content: center;
+      max-width: 345px;
+  }
+
+  .complet-text h2 {
+      font-size: 22px;
+      line-height: 30px;
+      text-align: center;
+  }
+
+  .complet-text p {
+      text-align: center;
+      font-size: 11px;
+      line-height: 17px;
+      margin-top: 44px;
+      margin-bottom: 44px;
+  }  
+
+  .text-slaider {
+      font-size: 14px;
+      line-height: 19px;
+  }
+
+  .text-slaider-item {
+      font-size: 11px;
+      line-height: 15px;
+  }
+
+  .complet-works-item:nth-child(odd) {
+      width: 50%;
+  }
+
+  .arrows {
+      display: none;
+  }
+
+  .photo-complet {
+      display: none;
+  }
+
+  .photo-working, .working-overlay {
+    max-width: 345px;
+    max-height: 190px;
+  }
+
+  .play-item {
+    width: 57px;
+    height: 57px;
+  }
+
+  .complet-mobile, .realize-mobile-photo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      z-index: 0;
+  }
+
+  .complet-mobile-photo, .photo-watch {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;   
+  }
+
+  .online-control {
+      background-color: black;
+  }
+
+  .control-block {
+      margin: 0 auto;
+      max-width: 375px;
+  }
+
+  .content-control {
+      max-width: 345px;    
+      margin: 0 auto 28px;
+  }
+
+  .discription-control {
+      font-size: 11px;
+      line-height: 19px;
+      color:white;
+      max-width: 375px;
+      margin-top: 21px;
+      margin-bottom: 61px;
+  }
+
+  .data-control {
+      display: block;
+  }
+
+  .data-label {
+      color: rgba(255, 255, 255, 0.5);
+      margin-top: 63px;  
+  }
+
+  .data-input {
+      background-color: black; 
+      border-bottom: 1px solid white;
+      width: 100%; 
+  }
+
+  .data-input::placeholder{
+      color: white;
+  }
+
+  .text-checkbox {
+      color: white;
+      margin-left: 10px;
+  }
+  .form-control {
+      text-align: left;
+      max-width: 375px;
+  }
+
+  .button-form {
+      display: block;
+      width: 100%;
+      margin-top: 108px;
+      position: relative;
+      margin-bottom: -165px;
+  }
+
+  .types-block {
+      margin: 0 auto;
+      max-width: 375px;
+  }
+
+  .types-text {
+      width: 270px;
+      margin: -127px auto -20px;
+      padding: 21px 0 37px 31px;
+      text-align: left;
+  }
+  .types-text span {
+      font-size: 15px;
+      line-height: 21px;
+  }
+  .types-text li {
+      line-height: 22px;
+  }
+  .types-content {
+      text-align: left;
+      margin-bottom: 59px;
+  }
+  .done-from {
+      width: 191px;
+      height: 40px;
+      margin-left: 0;
+      font-size: 15px;
+      line-height: 21px;
+  }
+
+  .additional-block, .help-save, .realize, .our-clients, .about-us, .footer {
+      display: none;
+  }
+
+  .types-of-repair {
+      background-image: none;
+  }
+
+  .realize-mob {
+      display: block;
+      font-family: Yeseva One;
+      font-size: 22px;
+      line-height: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #E3B873;
+  }
+
+  .question-mobile {
+      position: relative;
+      margin: 0 auto;
+      background-color: black;
+      display: block;
+  }
+  
+  .container-mobile {
+      padding-top: 10px;
+      max-width: 375px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container-mobile h3 {
+      font-size: 20px;
+      line-height: 28px;
+      margin-top: 52px;
+  }
+
+  .realize-mobile-photo {
+      position: relative;
+      margin-top: -120px;
+  }
+
+  .button-mobile {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 27px;
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .card {
+    width: 375px;
+    height: 255px;
+    margin-top: 40px;
+  }
+
+  .our-address-mobile {
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #E3B873;
+      margin: 43px auto 24px;
+  }
+
+  .icons-mobile {
+      position: relative;
+      margin: 0 auto 49px;
+  }
+  
+  .icons-mobile img {
+      margin: 0 8px 0;
+  }
+}
